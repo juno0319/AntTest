@@ -10,7 +10,10 @@
 	</taskdef>
 	
 	<target name="test">
+		<echo message="TEST!!" />
+	<!--
 		<sf:deploy checkOnly="true" username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" rollbackOnError="true"/>
+		-->
 	</target>
 	
 </project>
