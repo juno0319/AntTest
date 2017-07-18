@@ -3,11 +3,13 @@
 	<property file="build.properties"/>
 	<property environment="env"/>
 	
+	<!--
 	<taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
 		<classpath>
 			<pathelement location="lib/ant-salesforce.jar" />
 		</classpath>
 	</taskdef>
+	-->
 	
 	<target name="test">
 		<echo message="TEST!!" />
